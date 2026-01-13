@@ -1,8 +1,8 @@
 class Reflag < Formula
   desc "Translate command-line flags between different CLI tools"
   homepage "https://github.com/kluzzebass/reflag"
-  url "https://github.com/kluzzebass/reflag/archive/refs/tags/v0.8.1.tar.gz"
-  sha256 "2792f060c3d184a11a68c03c2789d87f4bd89500ef5437ee5772d9562a271d11"
+  url "https://github.com/kluzzebass/reflag/archive/refs/tags/v0.8.2.tar.gz"
+  sha256 "4f456b2a89c2ec02ff338fcee4b9bb23dde28c753c2e6db001cbdda53a6b1c2a"
   license "MIT"
 
   depends_on "go" => :build
