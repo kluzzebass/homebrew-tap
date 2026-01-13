@@ -1,22 +1,23 @@
 class Reflag < Formula
   desc "Translate command-line flags between different CLI tools"
   homepage "https://github.com/kluzzebass/reflag"
-  url "https://github.com/kluzzebass/reflag/archive/refs/tags/v0.8.2.tar.gz"
-  sha256 "4f456b2a89c2ec02ff338fcee4b9bb23dde28c753c2e6db001cbdda53a6b1c2a"
+  version "0.8.2"
   license "MIT"
 
-  depends_on "go" => :build
+  on_macos do
+    on_intel do
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.8.2/reflag-x86_64-apple-darwin"
+      sha256 "503667c2fb33f4a9d64984fec36bc43e48f214b38492a49fa2d5a1cfa8004abd"
+    end
+
+    on_arm do
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.8.2/reflag-aarch64-apple-darwin"
+      sha256 "b67f0ebe7557bc383ed3a179ebf54864ccb57e2638124424095ba5eb058ffa1f"
+    end
+  end
 
   def install
-    # Get version info from git
-    commit = `git rev-parse --short HEAD 2>/dev/null`.strip
-    commit = "none" if commit.empty?
-    date = `git log -1 --format=%cI 2>/dev/null`.strip
-    date = "unknown" if date.empty?
-
-    # Build with version info embedded
-    ldflags = "-s -w -X main.version=#{version} -X main.commit=#{commit} -X main.date=#{date}"
-    system "go", "build", *std_go_args(ldflags: ldflags)
+    bin.install Dir["reflag-*"].first => "reflag"
   end
 
   test do
