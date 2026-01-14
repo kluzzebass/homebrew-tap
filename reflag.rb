@@ -1,18 +1,18 @@
 class Reflag < Formula
   desc "Translate command-line flags between different CLI tools"
   homepage "https://github.com/kluzzebass/reflag"
-  version "0.10.0"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/reflag/releases/download/v0.10.0/reflag-x86_64-apple-darwin"
-      sha256 "5cba15f79dda0d5924cbbe49a17eb58b8040803ee5896434d10dc9fc4a251bd0"
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.11.0/reflag-x86_64-apple-darwin"
+      sha256 "7127de4a5fa957d815803fb9396c8b5010cfa4655c45875210ce96b4a7855f34"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/reflag/releases/download/v0.10.0/reflag-aarch64-apple-darwin"
-      sha256 "952d2d58983cc08172536e8d04e86ef72773773cf7b1c34b4c78bce19fe2f7ed"
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.11.0/reflag-aarch64-apple-darwin"
+      sha256 "a429f273a0464ff125671556e32a899b05cb8b6c8bd91d42b6c60a9ed65fc1a0"
     end
   end
 
