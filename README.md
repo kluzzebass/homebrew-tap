@@ -30,10 +30,23 @@ brew install lazyhue
 
 Homepage: https://github.com/kluzzebass/lazyhue
 
+## Available Casks
+
+### transmissioner
+
+macOS app for Transmission remote management.
+
+```bash
+brew install --cask transmissioner
+```
+
+Homepage: https://github.com/kluzzebass/transmissioner
+
 ## Usage
 
-After tapping this repository, you can install any formula with:
+After tapping this repository, you can install any formula or cask with:
 
 ```bash
 brew install <formula-name>
+brew install --cask <cask-name>
 ```
