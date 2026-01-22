@@ -1,10 +1,10 @@
 cask "transmissioner" do
-  version "0.4.1,4"
-  sha256 "0cb10267bcef5394b782b4c1b288310425361f343d43ae903a4720f98e3d38a8"
+  version "0.4.2,4"
+  sha256 "6acefdd2030e3742262caae2a019df7a1104e7c1a4f3e251bbe372236b135f8b"
 
-  url "https://github.com/kluzzebass/transmissioner/releases/download/v#{version.before_comma}/Transmissioner-0.4.1-4.zip"
+  url "https://github.com/kluzzebass/transmissioner/releases/download/v#{version.before_comma}/Transmissioner-0.4.2-4.zip"
   name "Transmissioner"
-  desc "Menu bar Transmission client for macOS"
+  desc "macOS menu bar client for remote controlling Transmission servers"
   homepage "https://github.com/kluzzebass/transmissioner"
 
   app "Transmissioner.app"
