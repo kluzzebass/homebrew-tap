@@ -1,18 +1,18 @@
 class Mcpipboy < Formula
   desc "MCP server providing AI agents with data generation and validation tools"
   homepage "https://github.com/kluzzebass/mcpipboy"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.3.0/mcpipboy-darwin-amd64"
-      sha256 "295c8eb0509c8677b557c7aaa28166009fe452882e403bbb577feb551455af74"
+      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.0/mcpipboy-darwin-amd64"
+      sha256 "d3c0eb217b04bafb508fb6990b7bf143d46cf749472a777b8751a75431e242b0"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.3.0/mcpipboy-darwin-arm64"
-      sha256 "2d0527aa17166b8befe451e8f2aedb0fa7905e977a808e0d92f0e3ff993c0947"
+      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.0/mcpipboy-darwin-arm64"
+      sha256 "f62dbe9f475c223057c4b64eba3164377b142eb55628de1f56039edaeda7b5ab"
     end
   end
 
