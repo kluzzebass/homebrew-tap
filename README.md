@@ -30,6 +30,16 @@ brew install lazyhue
 
 Homepage: https://github.com/kluzzebass/lazyhue
 
+### mcpipboy
+
+MCP server providing AI agents with data generation and validation tools
+
+```bash
+brew install mcpipboy
+```
+
+Homepage: https://github.com/kluzzebass/mcpipboy
+
 ### reflag
 
 Translate command-line flags between different CLI tools
