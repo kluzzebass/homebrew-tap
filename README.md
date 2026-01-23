@@ -42,6 +42,16 @@ brew install --cask transmissioner
 
 Homepage: https://github.com/kluzzebass/transmissioner
 
+### incel
+
+The involuntarily single-celled spreadsheet.
+
+```bash
+brew install --cask incel
+```
+
+Homepage: https://github.com/kluzzebass/incel
+
 ## Usage
 
 After tapping this repository, you can install any formula or cask with:
