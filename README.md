@@ -10,6 +10,16 @@ brew tap kluzzebass/tap
 
 ## Available Formulas
 
+### gqlt
+
+GraphQL CLI tool, MCP server, and Go library.
+
+```bash
+brew install gqlt
+```
+
+Homepage: https://github.com/kluzzebass/gqlt
+
 ### reflag
 
 Translate command-line flags between different CLI tools.
