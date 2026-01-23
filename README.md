@@ -61,12 +61,3 @@ brew install --cask transmissioner
 ```
 
 Homepage: https://github.com/kluzzebass/transmissioner
-
-## Usage
-
-After tapping this repository, you can install any formula or cask with:
-
-```bash
-brew install <formula-name>
-brew install --cask <cask-name>
-```

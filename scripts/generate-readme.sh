@@ -67,17 +67,4 @@ if [ -d "Casks" ] && ls Casks/*.rb 1> /dev/null 2>&1; then
   done
 fi
 
-# Footer
-{
-  echo ""
-  echo "## Usage"
-  echo ""
-  echo "After tapping this repository, you can install any formula or cask with:"
-  echo ""
-  echo '```bash'
-  echo "brew install <formula-name>"
-  echo "brew install --cask <cask-name>"
-  echo '```'
-} >> "$OUTPUT"
-
 echo "Generated $OUTPUT"
