@@ -12,7 +12,7 @@ brew tap kluzzebass/tap
 
 ### gqlt
 
-GraphQL CLI tool, MCP server, and Go library.
+A minimal, composable command-line client for GraphQL operations
 
 ```bash
 brew install gqlt
@@ -20,19 +20,9 @@ brew install gqlt
 
 Homepage: https://github.com/kluzzebass/gqlt
 
-### reflag
-
-Translate command-line flags between different CLI tools.
-
-```bash
-brew install reflag
-```
-
-Homepage: https://github.com/kluzzebass/reflag
-
 ### lazyhue
 
-TUI tool for managing Hue bridges.
+TUI tool for managing Hue bridges
 
 ```bash
 brew install lazyhue
@@ -40,27 +30,37 @@ brew install lazyhue
 
 Homepage: https://github.com/kluzzebass/lazyhue
 
-## Available Casks
+### reflag
 
-### transmissioner
-
-macOS app for Transmission remote management.
+Translate command-line flags between different CLI tools
 
 ```bash
-brew install --cask transmissioner
+brew install reflag
 ```
 
-Homepage: https://github.com/kluzzebass/transmissioner
+Homepage: https://github.com/kluzzebass/reflag
+
+## Available Casks
 
 ### incel
 
-The involuntarily single-celled spreadsheet.
+The One-Cell Spreadsheet
 
 ```bash
 brew install --cask incel
 ```
 
 Homepage: https://github.com/kluzzebass/incel
+
+### transmissioner
+
+macOS menu bar client for remote controlling Transmission servers
+
+```bash
+brew install --cask transmissioner
+```
+
+Homepage: https://github.com/kluzzebass/transmissioner
 
 ## Usage
 
