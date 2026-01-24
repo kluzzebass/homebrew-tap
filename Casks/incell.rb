@@ -1,8 +1,8 @@
 cask "incell" do
-  version "0.2.0"
-  sha256 "991c546ae60236f01de3c4846a694f017b0d72e1db47ad9ee51f2a2ecb091f29"
+  version "0.3.0"
+  sha256 "33d4e8e70be185532607bbee60b75710e3ae8e267edc71796fe406faaf3a49f3"
 
-  url "https://github.com/kluzzebass/incell/releases/download/v#{version}/Incell-0.2.0.zip"
+  url "https://github.com/kluzzebass/incell/releases/download/v#{version}/Incell-0.3.0.zip"
   name "Incell"
   desc "Solitaire card game"
   homepage "https://github.com/kluzzebass/incell"
