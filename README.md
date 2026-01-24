@@ -62,6 +62,16 @@ brew install --cask incel
 
 Homepage: https://github.com/kluzzebass/incel
 
+### incell
+
+FreeCell solitaire
+
+```bash
+brew install --cask incell
+```
+
+Homepage: https://github.com/kluzzebass/incell
+
 ### transmissioner
 
 macOS menu bar client for remote controlling Transmission servers
