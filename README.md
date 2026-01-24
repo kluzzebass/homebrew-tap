@@ -64,7 +64,7 @@ Homepage: https://github.com/kluzzebass/incel
 
 ### incell
 
-FreeCell solitaire
+Solitaire card game
 
 ```bash
 brew install --cask incell
