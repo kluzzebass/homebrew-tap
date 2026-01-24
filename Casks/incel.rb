@@ -1,6 +1,6 @@
 cask "incel" do
   version "1.1.0"
-  sha256 "6cbc9dd50bc6f2820bbcb8c2039a5937d822191140b6a6e80709fdaa02f199ad"
+  sha256 "f82954562bac0a95a5d731913bbf48b58b3039bf8123795c950ed9dbb00afd57"
 
   url "https://github.com/kluzzebass/incel/releases/download/v#{version}/Incel-1.1.0.zip"
   name "Incel"
