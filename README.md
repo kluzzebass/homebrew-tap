@@ -52,7 +52,7 @@ Homepage: https://github.com/kluzzebass/reflag
 
 ### shushtls
 
-HTTPS for your home network
+Local PKI: issue TLS certs for your services, install root CA on devices (home/lab)
 
 ```bash
 brew install shushtls
