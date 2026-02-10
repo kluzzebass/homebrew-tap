@@ -50,6 +50,16 @@ brew install reflag
 
 Homepage: https://github.com/kluzzebass/reflag
 
+### shushtls
+
+HTTPS for your home network
+
+```bash
+brew install shushtls
+```
+
+Homepage: https://github.com/kluzzebass/shushtls
+
 ## Available Casks
 
 ### incel
