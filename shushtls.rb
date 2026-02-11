@@ -1,18 +1,18 @@
 class Shushtls < Formula
   desc "Local PKI: issue TLS certs for your services, install root CA on devices (home/lab)"
   homepage "https://github.com/kluzzebass/shushtls"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/shushtls/releases/download/v0.1.3/shushtls-darwin-amd64"
-      sha256 "2d290f1069de090a1b6f1e92cdb51accdfb140857ec9082e05987c44eea57a5a"
+      url "https://github.com/kluzzebass/shushtls/releases/download/v0.1.4/shushtls-darwin-amd64"
+      sha256 "48dfdc5a15a32f53876ac5b59fc55d417e045e2634bfed306f505a8e4ba74a61"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/shushtls/releases/download/v0.1.3/shushtls-darwin-arm64"
-      sha256 "a3afdf161a386d79b579205c15767d2960d17e2d36e293e535405b5ee971b286"
+      url "https://github.com/kluzzebass/shushtls/releases/download/v0.1.4/shushtls-darwin-arm64"
+      sha256 "aca07d1e9c44ed223c00bc8afa0262faabebcb5d4f1d7dc4fc31780a8a5b88e4"
     end
   end
 
