@@ -1,18 +1,30 @@
 class Mcpipboy < Formula
   desc "MCP server providing AI agents with data generation and validation tools"
   homepage "https://github.com/kluzzebass/mcpipboy"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.0/mcpipboy-darwin-amd64"
-      sha256 "d3c0eb217b04bafb508fb6990b7bf143d46cf749472a777b8751a75431e242b0"
+      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.1/mcpipboy-darwin-amd64"
+      sha256 "ce8d57affbe93a416fef095e6804ae5149fc1244b2396b5edd4307111d11da3c"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.0/mcpipboy-darwin-arm64"
-      sha256 "f62dbe9f475c223057c4b64eba3164377b142eb55628de1f56039edaeda7b5ab"
+      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.1/mcpipboy-darwin-arm64"
+      sha256 "a52ea42206888d6a18af2c2704d55c22584701de687dcbbd3d080c44ee71a2de"
+    end
+  end
+
+  on_linux do
+    on_intel do
+      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.1/mcpipboy-linux-amd64"
+      sha256 "c27b02bdde056178341d74763d1fe9616df270295a629bb5151e6bde4fc731cb"
+    end
+
+    on_arm do
+      url "https://github.com/kluzzebass/mcpipboy/releases/download/v0.4.1/mcpipboy-linux-arm64"
+      sha256 "08c3dc4e5a735f0d8570a6924b2562eb441f73b8096ac0df84ff11504f2bd26e"
     end
   end
 
