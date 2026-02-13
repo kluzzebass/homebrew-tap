@@ -1,6 +1,6 @@
 cask "transmissioner" do
   version "0.4.4,4"
-  sha256 "b673078d63583bc8c0ad6b8b154a92439244547124e8f5b5b4fdd9f82e6257a0"
+  sha256 "5c3845f92e1e6acaf81455c9b387c223fcbdf505957ce6f22c0b71e55eb026ad"
 
   url "https://github.com/kluzzebass/transmissioner/releases/download/v#{version.before_comma}/Transmissioner-0.4.4-4.zip"
   name "Transmissioner"
