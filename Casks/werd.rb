@@ -1,8 +1,8 @@
 cask "werd" do
-  version "0.0.3"
-  sha256 "eacc997a37d3a60721bf12702dd52310aab4d5e9aef3434f946c7fe8c85107b0"
+  version "0.0.4"
+  sha256 "956251b16fe7d0d99676b849e56bda066e74f2376966d196db7bb3cbed692204"
 
-  url "https://github.com/kluzzebass/werd/releases/download/v#{version}/Werd-0.0.3.zip"
+  url "https://github.com/kluzzebass/werd/releases/download/v#{version}/Werd-0.0.4.zip"
   name "Werd"
   desc "The One-Word Word Processor"
   homepage "https://github.com/kluzzebass/werd"
