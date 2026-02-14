@@ -91,3 +91,13 @@ brew install --cask transmissioner
 ```
 
 Homepage: https://github.com/kluzzebass/transmissioner
+
+### werd
+
+The One-Word Word Processor
+
+```bash
+brew install --cask werd
+```
+
+Homepage: https://github.com/kluzzebass/werd
