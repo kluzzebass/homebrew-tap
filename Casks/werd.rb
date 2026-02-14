@@ -1,6 +1,6 @@
 cask "werd" do
   version "0.0.1"
-  sha256 "5e3e93eb4b7b15781884a86e5364eb98f6d261dda7aefa240a9f45440a249ada"
+  sha256 "190cdd064dd5950f19cbdb43accd367d3af7e26978ed02c5b07c41baa3729a1c"
 
   url "https://github.com/kluzzebass/werd/releases/download/v#{version}/Werd-0.0.1.zip"
   name "Werd"
