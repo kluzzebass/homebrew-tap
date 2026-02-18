@@ -1,30 +1,30 @@
 class Reflag < Formula
   desc "Translate command-line flags between different CLI tools"
   homepage "https://github.com/kluzzebass/reflag"
-  version "0.13.1"
+  version "0.13.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.1/reflag-x86_64-apple-darwin"
-      sha256 "7129329d7a69da88264525969ee2c8170a6d5dbbca1a6cccdc6241d2006e2568"
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.2/reflag-x86_64-apple-darwin"
+      sha256 "4c1ad941eb39fc6093a9cf9db5e38e33e227317a158f96d9a51797656b809c79"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.1/reflag-aarch64-apple-darwin"
-      sha256 "327be64f45911e89a458aab6da03650738d11880870399e7faf050e96e32a805"
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.2/reflag-aarch64-apple-darwin"
+      sha256 "5aca0adb3834e4d3c443b74df417fef296afdadfabbc7bc58895b909544f6ab7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.1/reflag-x86_64-unknown-linux-musl"
-      sha256 "9005e0f945be94e00bb3623113b76d733beb5efd173281472ad93d355dc61fa1"
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.2/reflag-x86_64-unknown-linux-musl"
+      sha256 "caad24700ff07c1f56930fc37719435c8bc7e5a4bc5d070e42f5948f59c39d17"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.1/reflag-aarch64-unknown-linux-musl"
-      sha256 "812387f093ef950c425212eb2c8da16c1cb2f251e01d1ab9e1b1a1f10cf49354"
+      url "https://github.com/kluzzebass/reflag/releases/download/v0.13.2/reflag-aarch64-unknown-linux-musl"
+      sha256 "8b44f3f4626f9aa3ae1b66fdf8dc801c57b3d57ee8db2f0a8447a97143148664"
     end
   end
 
