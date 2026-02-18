@@ -10,6 +10,16 @@ brew tap kluzzebass/tap
 
 ## Available Formulas
 
+### gastrolog
+
+Log aggregation service
+
+```bash
+brew install gastrolog
+```
+
+Homepage: https://github.com/kluzzebass/gastrolog
+
 ### gqlt
 
 A minimal, composable command-line client for GraphQL operations
