@@ -1,29 +1,29 @@
 class Gastrolog < Formula
   desc "Log aggregation service"
   homepage "https://github.com/kluzzebass/gastrolog"
-  version "0.0.4"
+  version "0.0.6"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.4/gastrolog-darwin-amd64"
-      sha256 "7f20fecb49646eb044e4560b45ca4c62a6df6fc36fa31f51a9827a351954f5a5"
+      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.6/gastrolog-darwin-amd64"
+      sha256 "28b9b498a11edc1614cdb135ec615825a782e6a66116f5be3b33b569d74285ac"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.4/gastrolog-darwin-arm64"
-      sha256 "ecdcb56fe247507e1eb114c4aab15cc234f0392dc858b70357f2d42b5414cc45"
+      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.6/gastrolog-darwin-arm64"
+      sha256 "5afb87057d15910b1e499e6c961528c029ef2a1d7638342ade8eef91deeba230"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.4/gastrolog-linux-amd64"
-      sha256 "3655c4a36b3a8f055f2c3d9b5710ad124c4f35ec95afec997e3a6168e9721787"
+      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.6/gastrolog-linux-amd64"
+      sha256 "93344f2f4649b5453dffc6f61151662733336ea6c27ddf203c78896960689321"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.4/gastrolog-linux-arm64"
-      sha256 "b190dc88dbf5db53b36d28a8cd52d3347934a4cfd5785b600db3772f0a649c8a"
+      url "https://github.com/kluzzebass/gastrolog/releases/download/v0.0.6/gastrolog-linux-arm64"
+      sha256 "3216e3b1053f6e7b6493ca8f32aedeeba178fd24f23650b470720344968ea93f"
     end
   end
 
