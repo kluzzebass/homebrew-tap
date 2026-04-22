@@ -30,6 +30,16 @@ brew install gqlt
 
 Homepage: https://github.com/kluzzebass/gqlt
 
+### imux
+
+Interactive multiplexer for running and controlling many commands at once
+
+```bash
+brew install imux
+```
+
+Homepage: https://github.com/kluzzebass/imux
+
 ### lazyhue
 
 TUI tool for managing Hue bridges
