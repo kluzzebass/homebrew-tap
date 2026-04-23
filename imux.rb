@@ -1,30 +1,30 @@
 class Imux < Formula
   desc "Interactive multiplexer for running and controlling many commands at once"
   homepage "https://github.com/kluzzebass/imux"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kluzzebass/imux/releases/download/v0.1.0/imux-darwin-amd64"
-      sha256 "67160b812caed90ba621b95031de219760e2e48e711933dd4970538c646f7a2c"
+      url "https://github.com/kluzzebass/imux/releases/download/v0.1.1/imux-darwin-amd64"
+      sha256 "a03eb08665365c40a46edd72c5901e29b76167119b616d993d3f6b0266db7b9f"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/imux/releases/download/v0.1.0/imux-darwin-arm64"
-      sha256 "180891a223bcb04666ffed4aec39f2ddca60effd5537a71b69d307ea46884d03"
+      url "https://github.com/kluzzebass/imux/releases/download/v0.1.1/imux-darwin-arm64"
+      sha256 "c04b0eb480d1affa4906a23205c8554a0f7c8b3eb2a4d759eb8d0a9d2b50b342"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kluzzebass/imux/releases/download/v0.1.0/imux-linux-amd64"
-      sha256 "28f7929f747bc465326cbd39ede9ad65f80bfa7d839b89b944c9f12dcb2754f1"
+      url "https://github.com/kluzzebass/imux/releases/download/v0.1.1/imux-linux-amd64"
+      sha256 "64419a4f57a01740d8da607b4040ebc20116404f497dd80e12c596fe0662040a"
     end
 
     on_arm do
-      url "https://github.com/kluzzebass/imux/releases/download/v0.1.0/imux-linux-arm64"
-      sha256 "8e96d524d0229de1d62478b90ac1fd810787fc784e5b792fe995fdc68683a2cf"
+      url "https://github.com/kluzzebass/imux/releases/download/v0.1.1/imux-linux-arm64"
+      sha256 "dd8df57ff865315baf2e95f8a2988cf722ec1561e86e8c633315998642b1861d"
     end
   end
 
